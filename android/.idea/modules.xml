@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/flutter_lebo.iml" filepath="$PROJECT_DIR$/.idea/modules/flutter_lebo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/source-lecast-release/flutter_lebo.source-lecast-release.iml" filepath="$PROJECT_DIR$/.idea/modules/source-lecast-release/flutter_lebo.source-lecast-release.iml" />
+    </modules>
+  </component>
+</project>

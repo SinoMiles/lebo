@@ -1,0 +1,29 @@
+PODS:
+  - Flutter (1.0.0)
+  - flutter_lebo (0.0.1):
+    - Flutter
+    - LBLelinkKit
+  - LBLelinkKit (30706)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - flutter_lebo (from `.symlinks/plugins/flutter_lebo/ios`)
+
+SPEC REPOS:
+  trunk:
+    - LBLelinkKit
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  flutter_lebo:
+    :path: ".symlinks/plugins/flutter_lebo/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 434fef37c0980e73bb6479ef766c45957d4b510c
+  flutter_lebo: b9b25d23728c30beb03d139f41d7b5d4aea99bd7
+  LBLelinkKit: 7fbaae07a4c26e6bb740c6d07e99a8886bc1dd62
+
+PODFILE CHECKSUM: c7066c19cbd6db6fcfde07d7056ae8b3d8871e59
+
+COCOAPODS: 1.10.1
