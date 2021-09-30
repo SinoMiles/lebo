@@ -9,7 +9,9 @@ class FlutterLebo {
   static late Function _disConnectListener;
   static LbCallBack _lbCallBack = LbCallBack();
   //设备列表回调
-  static late ValueChanged<List<TvData>> _serviecListener;
+  static late ValueChanged<List<TvData>> _serviecListener =
+      (List<TvData> data) {};
+
   static const MethodChannel _channel = const MethodChannel('flutter_lebo');
   static const EventChannel _eventChannel =
       const EventChannel("flutter_lebo_event");
@@ -81,8 +83,14 @@ class FlutterLebo {
   }
 
   //播放
-  static play(String playUrlString) {
-    _channel.invokeMethod("play", {"playUrlString": playUrlString});
+  static play(String playUrlString, {String header = ""}) {
+    _channel.invokeMethod(
+        "play", {"playUrlString": playUrlString, "header": header});
+  }
+
+  //停止搜索
+  static stopSearch() {
+    _channel.invokeMethod("stopSearchEquipment");
   }
 
   static eventChannelDistribution() {
